@@ -1,0 +1,40 @@
+{
+    "name": "fieldwork/socialmeta",
+    "description": "Rule based social tags and meta data.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "socialmeta"
+    ],
+    "support": {
+        "docs": "https://github.com/emt/socialmeta/blob/master/README.md",
+        "issues": "https://github.com/emt/socialmeta/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fieldwork",
+            "homepage": "https://madebyfieldwork.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "fieldwork\\socialmeta\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Social Meta",
+        "handle": "socialmeta",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/emt/socialmeta/master/CHANGELOG.md",
+        "class": "fieldwork\\socialmeta\\SocialMeta"
+    }
+}
